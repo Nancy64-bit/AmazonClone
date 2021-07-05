@@ -1,0 +1,284 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+/* 
+    Header Styles 
+*/
+
+header {
+    background-color: aqua;
+    max-width: 100%;
+    height: auto;
+}
+
+.First-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Box1 */
+
+header img {
+    margin-bottom: 0.3rem;
+    margin-top: 0.6rem;
+    padding: 0.5rem;
+}
+
+#logo {
+    width: 1rem;
+    height: 1rem;
+    border: 0.01rem solid silver;
+    border-radius: 5px;
+}
+
+#logo:hover {
+    border: black solid 0.1rem;
+}
+
+header input[type="text"] {
+    width: 25rem;
+    height: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-shadow: 0.01rem 0.01rem 0.2rem white;
+}
+
+header input[type="text"]:focus {
+    border: 0.01rem solid silver;
+}
+
+/* box2 */
+
+#box2 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* Box3 */
+
+#box3 {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: stretch;
+}
+
+.logo {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+}
+
+.logo:hover {
+    cursor: pointer;
+    background-color: silver;
+}
+
+/* Navigation Styles */
+
+#nav-bar {
+    background-color: aqua;
+    border: 1px solid silver;
+    border-top: 0.5rem solid gold;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+#box {
+    float: left;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    border: silver solid 1px;
+    border-radius: 0.2rem;
+    text-align: center;
+    display: block;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    background-color: silver;
+    text-shadow: -0.5px 0 0 black, 0 -0.5px 0 black, 0 0 1px black;
+}
+
+/*
+    Main styles 
+*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+/*About Styles*/
+
+#about {
+    margin: 2rem;
+    padding: 0.5rem;
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    border: solid silver 0.02rem;
+    box-shadow: 0.02rem 0.02rem 0.5rem silver;
+}
+
+h2 {
+    color: gold;
+}
+
+#img-div {
+    float: left;
+    display: block;
+    margin-right: 9%;
+}
+
+#about img {
+    border: 0.3rem solid silver;
+    display: block;
+    float: left;
+    border-radius: 0.6rem;
+}
+
+p {
+    margin: 1rem;
+    text-align: left;
+}
+
+#video-div {
+    width: auto;
+    height: auto;
+    margin: 5rem;
+}
+
+#video {
+    display: block;
+    margin: 0 auto;
+}
+
+#p {
+    text-align: center;
+}
+
+/* 
+  Products Section 
+*/
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    border: silver solid 0.01rem;
+    height: 15rem;
+}
+
+.product-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    padding: 0;
+    border: silver solid 0.01rem;
+}
+
+button {
+    padding: 0.5rem;
+    display: block;
+    margin: 0.5rem;
+}
+
+#section1 {
+    float: left;
+}
+
+#section2 {
+    float: left;
+}
+
+#section3 {
+    float: left;
+}
+
+/* SignIn-div */
+
+#Wrapper {
+    width: auto;
+    height: 35rem;
+}
+
+#SignIn {
+    padding: 5rem;
+    display: block;
+    margin: 3rem auto;
+    border: 0.1rem silver solid;
+    border-radius: 0 20% 0 20%;
+    width: 30vw;
+    height: 35vh;
+}
+
+#form {
+    padding: 1rem;
+}
+
+#email {
+    width: 15rem;
+    height: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+}
+
+#submit {
+    width: auto;
+    height: 2rem;
+    display: inline-block;
+}
+
+.button {
+    padding: 0.5rem;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: silver;
+}
+
+/* Footer Syles */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    opacity: 0.7;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a img {
+    width: 3rem;
+    height: 3rem;
+}
