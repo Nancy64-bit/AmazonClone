@@ -1,3 +1,3 @@
 # AmazonClone
 Just a simple try to build an e-commerce website layout.
-Use https://nancy64-bit.github.io/AmazonClone/ to view this.
+<a href="https://nancy64-bit.github.io/AmazonClone/">Click here</a> to view my webpage.
